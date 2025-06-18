@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>регистрация.coursing</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Навигация -->
+  <header class="navbar">
+    <div class="logo">
+      <a href="index.html">coursing</a>
+    </div>
+    <nav class="menu">
+      <a href="create_course.html">создать курс</a>
+      <a href="registration.html">регистрация</a>
+      <a href="login.html">вход</a>
+      <a href="about.html">о нас</a>
+    </nav>
+  </header>
+
+  <!-- Контент -->
+  <main class="main-content">
+    <h1>зарегистрируйтесь</h1>
+    <form>
+      <div class="form-group">
+        <input type="text" id="user-name" name="user-name" placeholder="введите логин" required>
+      </div>
+      <div class="form-group">
+        <input type="email" id="user-email" name="user-email" placeholder="введите почту" required>
+      </div>
+      <div class="form-group">
+        <input type="password" id="user-password" name="user-password" placeholder="введите пароль" required>
+      </div>
+      </div>
+      <div class="form-group">
+        <input type="password" id="user-password" name="user-password" placeholder="повторите пароль" required>
+      </div>
+      <div class="form-group" style="text-align: center; margin-top: 10px;">
+        <span>уже есть аккаунт? </span><a href="login.html" style="color: #3C84CD; text-decoration: none;">войти</a>
+      </div>
+      <div class="form-group">
+        <button type="submit">завершить регистрацию</button>
+      </div>
+    </form>
+  </main>
+
+  <!-- Подвал -->
+  <footer class="footer">
+    <p>&copy; coursing 2025</p>
+    <p><a href="contacts.html">контакты</a> | <a href="privacy.html">политика конфиденциальности</a></p>
+  </footer>
+</body>
+</html>
